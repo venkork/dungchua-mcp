@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "dungchua": {
+      "type": "http",
+      "url": "https://dungchua.app/api/mcp"
+    },
+    "dungchua-mcp-remote": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://dungchua.app/api/mcp"
+      ]
+    }
+  }
+}
