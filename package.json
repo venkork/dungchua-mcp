@@ -1,6 +1,6 @@
 {
   "name": "dungchua-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vietnamese tone pitch-contour guides and acoustic recording gate checks via Remote MCP.",
   "type": "module",
   "mcpName": "app.dungchua/dungchua",

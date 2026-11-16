@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "app.dungchua/dungchua",
   "title": "Đúng Chưa?",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://dungchua.app",
   "description": "Vietnamese tone pitch-contour guides and acoustic recording gate checks via Remote MCP.",
   "repository": {
@@ -13,6 +13,15 @@
     {
       "type": "streamable-http",
       "url": "https://dungchua.app/api/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://dungchua.app/assets/brand/dung-chua/favicons/android-chrome-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
     }
   ]
 }
