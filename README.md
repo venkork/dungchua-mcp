@@ -181,3 +181,23 @@ chmod +x examples/verify-mcp.sh
 ## License
 
 MIT — see [LICENSE](./LICENSE). Published by **Dung Chua Operations** ([support@dungchua.app](mailto:support@dungchua.app)).
+
+## Zero-Install Stdio Bridge (`npx`)
+
+For stdio-only MCP clients (like Claude Desktop), connect without cloning or managing dependencies:
+
+```json
+{
+  "mcpServers": {
+    "dungchua-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:venkork/dungchua-mcp"
+      ]
+    }
+  }
+}
+```
+
+Or run directly via terminal: `npx -y github:venkork/dungchua-mcp` (package ID: `dungchua-mcp@1.0.0`).

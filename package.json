@@ -1,0 +1,36 @@
+{
+  "name": "dungchua-mcp",
+  "version": "1.0.0",
+  "description": "Vietnamese tone pitch-contour guides and acoustic recording gate checks via Remote MCP.",
+  "type": "module",
+  "mcpName": "app.dungchua/dungchua",
+  "bin": {
+    "dungchua-mcp": "./bin/mcp-bridge.mjs"
+  },
+  "files": [
+    "bin",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "remote-mcp",
+    "vietnamese",
+    "tones",
+    "pronunciation",
+    "a2a"
+  ],
+  "homepage": "https://dungchua.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkork/dungchua-mcp.git"
+  },
+  "author": "Đúng Chưa? Operations <support@dungchua.app>",
+  "license": "MIT"
+}
